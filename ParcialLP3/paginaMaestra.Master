@@ -1,0 +1,27 @@
+<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="paginaMaestra.master.cs" Inherits="ParcialLP3.paginaMaestra" %>
+
+<!DOCTYPE html>
+<html lang="en">
+<head runat="server">
+    <title>Desempeño 2 LP3</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="Index.aspx">Inicio</a></li>
+                    <li><a href="Prueba1.aspx">Formulario de Registro</a></li>
+                    <li><a href="Prueba2.aspx">Ver Registros</a></li>
+                </ul>
+            </nav>
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+
+            <footer>
+                <p>&copy; Llugany Julian</p>
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
